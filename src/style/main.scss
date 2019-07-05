@@ -1,0 +1,524 @@
+body {
+  @media screen and (max-width: 769px) {
+
+    header{
+      .background-text{
+        top: 30% !important;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        z-index: 1;
+      }
+      .menu{
+        height: 55% !important;
+
+        .logo-container{
+          margin: 30px 0;
+        }
+      }
+      .title{
+        height: 45% !important;
+        padding: 0 5% !important;
+
+        .text__container{
+          margin: 0 !important;
+          text-align: center;
+
+          .title__text{
+            font-weight: 700;
+            font-size: 22px;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+    .offers{
+      height: 75vh !important;
+
+      .offers__title{
+        width: 100% !important;
+      }
+      .card-body{
+        width: 160px;
+      }
+    }
+    .gallery{
+      height: 75vh !important;
+    }
+    .crew{
+      height: 50vh !important;
+    }
+    .about{
+      height: 75vh !important;
+    }
+    .testimonials{
+      height: 50vh !important;
+    }
+    .contacts-container{
+      height: 50%;
+
+      .contacts{
+        width: 80%;
+      }
+
+      .socials{
+        margin: 0 auto;
+      }
+    }
+    .map{
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+
+    h2{
+      font-weight: 900;
+      font-size: 24px !important;
+    }
+
+    .menu{
+      height: 75% !important;
+
+      h5{
+        font-size: 20px !important;
+        font-weight: 700 !important;
+      }
+    }
+    .background-text{
+      top: 30% !important;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      z-index: 1;
+
+      h2{
+        font-size: 24px !important;
+      }
+    }
+    .title{
+
+      .title__text{
+        font-weight: 700;
+        font-size: 16px !important;
+        width: 100% !important;
+      }
+    }
+    .offers{
+      height: auto !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      .offers__title{
+        height: auto !important;
+        text-align: center;
+      }
+      .card{
+        margin: 30px 0 !important;
+
+        svg{
+          padding: 10px;
+        }
+
+        .card-body{
+          width: auto;
+          height: auto !important;
+        }
+      }
+    }
+    .gallery{
+      height: 50vh !important;
+    }
+    .crew{
+      height: auto !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      ol{
+        margin-bottom: 0 !important;
+      }
+    }
+    .about{
+      height: auto !important;
+    }
+    .testimonials{
+      height: auto !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      .testimonials__slide{
+        margin-top: 1.5rem;
+      }
+    }
+    footer{
+      height: auto !important;
+
+      .map{
+        height: 40em;
+      }
+      .contacts{
+        margin: 20px auto;
+      }
+    }
+  }
+  @media screen and (max-width: 375px) {
+
+    .logo-container{
+      margin: 15px 0 !important;
+    }
+    .background-text {
+      top: 35% !important;
+
+      .small__background-text{
+        font-size: 20px !important;
+      }
+      .big__background-text{
+        font-size: 46px !important;
+      }
+    }
+  }
+
+  h1{
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  h2{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+  }
+  h3{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  h4{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  h5{
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  h6{
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  p{
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .burger-menu__link{
+    color: #ff690f !important;
+    font-size: 36px;
+  }
+
+  button:hover{
+    background: #ffffff !important;
+    color: #ff690f !important;
+    border: 2px solid #ff690f;
+  }
+  header{
+    height: 100vh;
+    background: url("../img/header/background.png") center no-repeat;
+    background-size: cover;
+
+    .header-image{
+      background: url("../img/header/background-2.png") bottom center no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 2;
+
+      .header-container{
+        .menu{
+          padding: 0 5%;
+
+          .burger-menu{
+            padding-top: 15px;
+            position: relative;
+            z-index: 2;
+          }
+          .burger-nav{
+
+            h5{
+              margin: 10px 0 !important;
+              font-size: 22px;
+              color: #ff690f !important;
+            }
+          }
+          .menu-nav{
+
+            h5:hover{
+              color: #ff690f;
+            }
+          }
+        }
+        .title{
+          padding: 0 15%;
+        }
+
+
+          .text__container{
+
+            .title__text{
+              width: 57%;
+              line-height: 2;
+              text-shadow: 2px 2px 2px #111111;
+            }
+          }
+          button{
+            width: 160px;
+            height: 45px;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            background: #ff690f;
+            color: #ffffff;
+            text-decoration: none;
+            outline: none;
+            /*overflow: none;*/
+            }
+        }
+      }
+      .background-text{
+        top: 10%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        z-index: 1;
+        
+        h2{
+          color: #5697C5;
+        }
+        .small__background-text{
+          font-size: 25px;
+        }
+        .big__background-text{
+          font-size: 110px;
+        }
+      }
+    }
+  main{
+    .offers{
+      height: 100vh;
+      background-color: #F7F7F7;
+      padding: 0 15%;
+
+      .offers__title{
+        width: 84%;
+      }
+
+      .card{
+        background-color: #F7F7F7 !important;
+        border: none;
+
+        .card-body{
+          height: 210px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        h3{
+          margin: 15px 0 !important;
+        }
+        button{
+          background-color: #ff690f;
+          color: #ffffff;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 400;
+          outline: none !important;
+          border: 2px solid none;
+        }
+      }
+    }
+    .gallery{
+      height: 100vh;
+
+      .img-1__container{
+        height: 33.3333333%;
+
+        .img-1{
+          background: url("../img/gallery/img-1.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-2__container{
+        height: 66.6666666%;
+
+        .img-2{
+          background: url("../img/gallery/img-2.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-3__container{
+        height: 33.3333333%;
+
+        .img-3{
+          background: url("../img/gallery/img-3.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-4__container{
+        height: 33.3333333%;
+
+        .img-4{
+          background: url("../img/gallery/img-4.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-5__container{
+        height: 33.3333333%;
+
+        .img-5{
+          background: url("../img/gallery/img-5.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-6__container{
+        height: 66.6666666%;
+
+        .img-6{
+          background: url("../img/gallery/img-6.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .img-7__container{
+        height: 33.3333333%;
+
+        .img-7{
+          background: url("../img/gallery/img-7.png") center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .crew{
+      height: 75vh;
+      background-color: #F7F7F7;
+      padding: 0 15%;
+
+      .card{
+        background-color: #F7F7F7;
+        border: none;
+
+        h6{
+          margin: 10px 0 !important;
+        }
+
+        img{
+          width: 130px;
+          height: 130px;
+          margin: auto;
+        }
+      }
+      .crew__instructors-slides{
+
+        ol{
+          .active{
+            background-color: #ff690f;
+          }
+          li{
+            width: 10px;
+            height: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #D1D8DF;
+          }
+        }
+      }
+    }
+    .about{
+      height: 100vh;
+      background: url("../img/about/background-image.png") center no-repeat;
+      background-size: 100% 100%;
+      padding: 0 15%;
+
+      .achievement{
+
+        .price-1{
+            color: #ff690f;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: 900;
+            font-size: 36px;
+          }
+        .price-2{
+          color: #ff690f;
+          font-family: 'Catamaran', sans-serif;
+          font-weight: 900;
+          font-size: 36px;
+        }
+        .price-3{
+          color: #ff690f;
+          font-family: 'Catamaran', sans-serif;
+          font-weight: 900;
+          font-size: 36px;
+        }
+
+          h2{
+            color: #ff690f;
+          }
+          p{
+            font-weight: 400;
+          }
+        }
+    }
+    .testimonials{
+      height: 75vh;
+      background-color: #F7F7F7;
+      padding: 0 15%;
+
+      img{
+        width: 130px !important;
+        height: 130px;
+        margin: 0 auto;
+      }
+      h4{
+        margin: 10px 0 !important;
+      }
+      ol{
+        .active{
+          background-color: #ff690f;
+        }
+        li{
+          width: 10px;
+          height: 10px;
+          border: none;
+          border-radius: 10px;
+          background-color: #D1D8DF;
+        }
+      }
+    }
+  }
+  footer{
+    height: 75vh;
+
+    .contacts-container{
+      background-color: #2F2F2F;
+      color: #ffffff;
+      padding: 0 5% !important;
+    }
+    .map{
+      background: url("../img/footer/map.png") center no-repeat;
+      background-size: cover;
+    }
+    .cls-1:hover{
+      opacity: 1!important;
+    }
+  }
+}
